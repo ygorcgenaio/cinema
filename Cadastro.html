@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../Trabalho FPW 7/styles/style.css">
+    <link rel="stylesheet" href="styles/StyleFormularioNew.css" />
+
+
+    <script src="../Trabalho FPW 7/js/campocpff.js"></script>
+    <script src="../Trabalho FPW 7/js/campocelular.js"></script>
+    <script src="../Trabalho FPW 7/js/campocep.js"></script>
+    <!--teste de campo cep-->
+
+    <title>Cinema</title>
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <header>
+        <nav>
+            <a class="logo" href="../Trabalho FPW 7/home.html">Movie<br>Space</a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/home.html">Home</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/ProjetoDoSite.html">Projeto</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/Noticia.html">Noticias</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/ContateNos.html">Contate-nos</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/Cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar end -->
+
+    <div id="titulo">Cadastro</div>
+
+    <div id="conteiner2">
+
+        <form method="post" action="ygorcgenaio@gmail.com">
+
+
+            <div class="box100">
+                <label> Nome:</label><br>
+                <input class="inputBorder" type="text" name="pNome" size="40" required />
+            </div>
+
+            <div class="box100">
+                <label>Sobrenome:</label><br>
+                <input class="inputBorder" type="text" name="pSobrenome" size="40" required />
+
+            </div>
+
+            
+	    <div class="box100">
+                 <label>Senha:</label><br>
+                 <input class="inputBorder" type="password" name="senha" size="40" required />
+
+	    <div class="box100">
+                <label>Confirmar Senha:</label><br>
+                <input class="inputBorder" type="password" name="senha" size="40" required />
+
+
+
+            </div>
+
+            <div class="box100">
+                <label>CPF:</label><br>
+                <input class="inputBorder" maxlength="14" size="40" type="text" id="RegraValida" value=""
+                    name="RegraValida" onkeydown="jsscript: fMasc( this, mCPF );">
+
+
+            </div>
+
+            <div class="box100">
+                <label>E-mail:</label><br>
+                <input class="inputBorder" type="email" name="pEmail" size="40" required />
+
+            </div>
+
+            <div class="box100">
+                <label>Celular:</label><br>
+                <input class="inputBorder" type="text" size="40" id="phone" name="phone"
+                    onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" />
+
+            </div>
+
+            <div>
+
+                <label>Data de Nascimento:</label>
+                <input class="inputBorder" class="dataBox" type="date" name="pNascimento" size="50" min="1900-01-01"
+                    max="2004-01-01"> <br>
+
+            </div>
+
+            <div class="textCenter">Endereço</div>
+            <div>
+                <select class="box100">
+                    <option default>Estado</option>
+                    <option value="rj">RJ</option>
+                    <option value="es">ES</option>
+                    <option value="sp">SP</option>
+                </select><br>
+            </div>
+            <div class="box100">
+                <div>Cidade:</div>
+                <input class="inputBorder" type="text" name="pCidade" size="40" required />
+            </div>
+
+            <div class="align">
+                <label>Rua:</label><br>
+                <input class="inputBorder" type="text" name="pRua" size="25" required />
+            </div>
+
+            <div>
+                <label>Nº:</label><br>
+                <input class="inputBorder" type="text" name="pNumero" size="5" placeholder="Ex: 33" required />
+            </div>
+
+            <div>
+                <label>Cep:</label><br>
+                <input class="inputBorder" maxlength="9" size="40" type="text" id="RegraValida" value=""
+                    name="RegraValida" onkeydown="jsscript: fMasc( this, mCEP );">
+            </div>
+
+
+            <div class="boxButton">
+                <button class="buttonSubmit" type="submit">Submit</button>
+                <button class="buttonReset" type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="../Trabalho FPW 7/js/mobile-navbar.js"></script>
+
+</body>
+
+</html>

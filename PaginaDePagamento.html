@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../Trabalho FPW 7/styles/style.css">
+    
+
+   <link rel="stylesheet" href="../Trabalho FPW 7/styles/StylePaginaDePagamento.css"> 
+   <script src="../Trabalho FPW 7/js/campoDataCartao.js" ></script>
+   <script src="../Trabalho FPW 7/js/CAMPOdataDOcartao.js"></script>
+
+
+    <title>Cinema</title>
+</head>
+
+<body>
+      <!-- navbar start -->
+      <header>
+        <nav>
+            <a class="logo" href="../Trabalho FPW 7/home.html">Movie<br>Space</a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/home.html">Home</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/ProjetoDoSite.html">Projeto</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/Noticia.html">Noticias</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/ContateNos.html">Contate-nos</a></li>
+                <li class="textoMAIN"><a href="../Trabalho FPW 7/Cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar end -->
+
+<!--Pagina de Produto Solo-->
+    <div class="titulo">
+        Pagamento
+    </div>
+
+    <form mathod="post" action="ygorcgenaio@gmail.com">
+
+        <div class="conteiner2">
+            
+            <div class="texto">
+                E-mail:
+                <div id="emailID" class="texto">
+                    <input required class="boxInput" class="fullWidth"  type="email" size="52" placeholder="email@dominio.com" >
+                </div>
+            </div>
+
+            <div class="dadosDocartao">
+                <div class="texto">
+                    Insira os dados do cartão de crédito
+                </div>
+                
+                <div id="boxDoCartao" class="texto"> 
+                    
+                    
+                    <div class="numeroDoCartao">
+                        <!--<input class="boxInput" class="fullWidth" type="text" size="52" placeholder="Ex: 123.123.123-12">-->
+                        <input size="52" required placeholder="Número do Cartão" class="boxInput" maxlength="19" size="40" type="text" id="RegraValida" value="" name="RegraValida" onkeydown="javascript: fMasc( this, mDATA );">
+                    </div>
+                    
+                    
+                    <div class="label1"> 
+                        <!--<input class="boxInput" type="text" size="22" placeholder="mes/anos">-->
+                        <input size="22" required placeholder="Data de validade do cartao" class="boxInput" maxlength="7" size="40" type="text" id="RegraValida" value="" name="RegraValida" onkeydown="javascript: fMasc( this, mDATACARTAO );">
+                    </div>
+                    
+                    
+                    <div> 
+                        <input class="boxInput" maxlength="3" type="text" size="21" placeholder="CVC" pattern="[0-9]{3}" required>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="texto">
+                Nome no Cartão
+            </div>
+
+            <div class="boxDoNome">
+                <input required class="boxInput" class="fullWidth" type="text" size="52" placeholder="Nome..">
+            </div>
+
+            <div class="boxButton">
+                <button type="submit">Comprar</button>
+                <a href="../Trabalho FPW 7/SelecionarAssento.html"><button type="button">Retornar</button></a>
+            </div>
+
+        </div>    
+    </form>
+
+    <script src="../Trabalho FPW 7/js/mobile-navbar.js"></script>
+</body>
+
+</html>
