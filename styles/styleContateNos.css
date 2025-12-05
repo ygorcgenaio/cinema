@@ -1,0 +1,79 @@
+ #titulo{
+     text-align: center;
+     font-family: "Audiowide";
+     color: white;
+     font-size: 2em;
+     margin-bottom: 2%;
+ }
+
+ #boxContato{
+     font-family: "BaiJamjuree";
+     color: white;
+    
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%);
+ }
+
+ input{
+     background-color: #322f2f;
+     outline: none;
+     border-radius: 5px;
+     border: 1px solid #e7ff2c;
+     color: white;
+     padding: 12px 10px 12px 10px;
+     margin-bottom: 10px;
+     width: 100%;
+
+ }
+
+ textarea{
+     border-radius: 5px;
+     outline: none;
+     border: 1px solid #e7ff2c;
+     padding: 6px 4px 6px 4px;
+     width: 100%;
+ }
+
+ .buttonBox{
+     text-align: center;
+ }
+
+ .buttonSubmit{
+     font-family: "BaiJamjuree" ;
+     background-color: #e7ff2c;
+     color: #322f2f;
+     border-radius: 5px;
+     font-size: 1em;
+     outline: none;
+     padding: 8px 8px 8px 8px;
+     border: none;
+     width: 100px;
+ }
+
+ .buttonSubmit:hover{
+    background-color: #e6ff2cad;
+    cursor: pointer;
+ }
+
+ .buttonSubmit:active{
+    background-color: #e6ff2c5e;
+ }
+
+.boxText{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 100%;
+     background-color: #322f2f;
+     outline: none;
+     border-radius: 5px;
+     border: 1px solid #e7ff2c;
+     color: white;
+     padding: 12px 10px 12px 10px;
+     margin-bottom: 10px;
+     font: "BaiJamjuree";
+
+}

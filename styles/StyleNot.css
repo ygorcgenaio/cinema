@@ -1,0 +1,128 @@
+#titulo {
+    margin-top: 3vh;
+    margin-left: 10vw;
+    margin-right: 10vh;
+
+    text-align: center;
+    font-family: "Audiowide";
+    font-size: 1.6em;
+    color: white;
+}
+
+.subtitulo {
+    font-family: "Audiowide";
+    color: rgb(139, 255, 124);
+    font-size: 1.6;
+}
+
+#imagemPrincipal {
+    width: 50vw;
+    height: auto;
+    margin-right: 20vw;
+
+}
+
+#imagemPrincipal tr td img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+#imagemPrincipal {
+
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#imagemSecundaria {
+    margin-top: 2vh;
+    width: 80%;
+    height: auto;
+    border: 5px;
+    margin-bottom: 30px;
+}
+
+#imagemSecundaria tr td img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.texto {
+    color: white;
+    font-family: "BaiJamjuree";
+    margin-bottom: 1.5vh;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.texto ul{
+    margin-left: 50px;
+}
+
+.subtitulo {
+    color: rgb(139, 255, 124);
+    font-size: 1.4em;
+    font-family: "Audiowide";
+}
+
+.imagens {
+    margin-top: 3vh;
+
+}
+
+.imagens img {
+    border-radius: 5px;
+
+}
+
+
+/*Complemento*/
+
+.trama {
+    color: rgba(255, 255, 255, 0.575);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.boxComplementar .imagens img {
+    width: 320px;
+    margin-right: 10px;
+}
+
+
+@media (min-width:1285px) {
+    #blocoPrincipal {
+        float: left;
+        margin-left: 10vw;
+        margin-top: 7vh;
+        width: 60vw;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:1284px) {
+    #blocoPrincipal {
+        width: 80vw;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .boxComplementar {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 280px;
+    }
+}
+
+@media (min-width:1286px) {
+    .boxComplementar {
+        float: right;
+        margin-right: 9vh;
+        margin-top: 13vh;
+        width: 290px;
+    }
+}

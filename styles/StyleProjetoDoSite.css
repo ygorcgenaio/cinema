@@ -1,0 +1,29 @@
+ #titulo {
+     font-family: "Audiowide";
+     color: aliceblue;
+     text-align: center;
+     font-size: 2em;
+     margin-top: 4%;
+     margin-bottom: 4%;
+ }
+
+ .subtitulo {
+     font-family: "Audiowide";
+     color: rgb(170, 255, 72);
+     margin-top: 1%;
+     margin-bottom: 1%;
+
+ }
+
+ #boxTexto {
+     width: 60vw;
+     position: relative;
+     left: 50%;
+     transform: translate(-50%);
+ }
+
+
+ .texto {
+     color: white;
+     font-family: "BaiJamjuree";
+ }

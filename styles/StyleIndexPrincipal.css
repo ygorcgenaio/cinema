@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Audiowide";
+    src: local(Audiowide-Regular), url(../fonts/Audiowide-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: "BaiJamjuree";
+    src: local(BaiJamjuree-Regular), url(../fonts/BaiJamjuree-Regular.ttf);
+ }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #322F2F;
+}
+
+.container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+ #titulo{
+     font-family: "Audiowide";
+     color: #e7ff2c;
+     text-align: center;
+     font-size: 4em;
+     padding: 50px;
+
+ }
+
+ #titulo a{
+     color: #e7ff2c;
+ }
+
+.texto{
+    width: 500px;
+    height: 500px;
+    font-family: "BaiJamjuree";
+    color: white;
+    text-align: justify;
+    padding: 50px;
+}
+
+@media (max-width:600px) {
+    .texto{
+        width:100%;
+    }
+}

@@ -1,0 +1,156 @@
+ body{
+     background-color: #322f2f;
+ }
+
+ #conteiner2{
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%);
+ }
+
+ .box100{
+     margin-bottom: 3%;
+     width: 100%;
+ }
+
+ .align{
+     float: left;
+     margin-right: 2%;
+ }
+
+ .mensagem{
+     margin-top: 3%;
+     margin-bottom: 1%;
+ }
+
+
+ #titulo{
+    font-family: "Audiowide";
+    text-align: center;
+    font-size: 2.4em;
+    color: white;
+    margin-bottom: 2vh;
+ }
+
+ .textCenter{
+     text-align: center;
+     margin-top: 3%;
+     margin-bottom: 1%;
+     font-family: "BaiJamjuree";
+ }
+
+label, button, div{
+     font-family: "BaiJamjuree";
+     color: white;
+ }
+
+.inputBorder{
+     background-color: #322f2f;
+     border: 1px solid #e7ff2c;
+     border-radius: 7px;
+     padding: 6px 13px 6px 13px;
+     outline: none;
+     color: white;
+ }
+
+ select{
+    background-color: #322f2f;
+    border: 1px solid #e7ff2c;
+    border-radius: 7px;
+    padding: 6px 13px 6px 13px;
+    outline: none;
+    width: 95%;
+    color: white;
+
+    margin-bottom: 2%;
+ }
+
+ textarea{
+    outline: none;
+
+    border: 2px solid #E7FF2C;
+
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.boxButton{
+    text-align: center;
+}
+
+.buttonSubmit,.buttonReset{
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 70px;
+    border: none;
+    background-color: #E7FF2C;
+    color: #322F2F;
+  
+    border-radius: 5px ;
+    
+  }
+  .buttonSubmit:hover,.buttonReset:hover{
+      background-color: rgb(110, 167, 24);
+      cursor: pointer;
+  
+  }
+  .buttonSubmit:active,.buttonReset:active{
+      background-color: rgb(63, 85, 31);
+  
+  }
+  
+  
+.buttons{
+  
+    text-align: center;
+    margin-bottom: 10px;
+}
+ 
+
+.selectRadio {
+    cursor: pointer;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #E7FF2C;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 5px ;
+    outline: none;
+}
+  
+  
+  
+.selectRadio:before{
+    content: '';
+    width: 10px;
+    height: 9px;
+    background: #E7FF2C;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+  
+  
+.selectRadio:checked:before {
+    opacity: 1;
+}
+  
+ 
+
+ 
